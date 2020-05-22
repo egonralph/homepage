@@ -1,3 +1,10 @@
+
+.about{
+    background: #fafafa;
+}
+.about__link{
+    color: lightsalmon;
+}
 body{
     background: #fefefe;
 }
@@ -5,11 +12,13 @@ body{
     text-align: center;
 }
 .footer{
-    background: #cccccc;
+    margin: 0 auto;
     padding: 0.5em;
-    border-radius: 3px;
-    font-size: 12px;
+    background: #cccccc;
     color: #555555;
+    max-width: 1000px;
+    border-radius: 3px;
+    font-size: 12px;  
 }
 .footer__cprt{
     float: right;
@@ -18,7 +27,7 @@ h1 {
     color: blue;
 }
 .main{
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     height: 100vh;
 }
@@ -44,8 +53,8 @@ h1 {
     padding: 0.5em;;
     font-size: 14px;
 }
-.section{
-    background: #fafafa;
+.notes{
+    background: #f1f1f1;
 }
 .section__article{
     border: 1px solid #ddd;
