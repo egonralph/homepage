@@ -10,47 +10,47 @@
 
 <body>
     <header>
-        <nav class="main-nav">
-            <a href="index.html">Strona główna</a>
-            <a href="page2.html">Strona 2</a>
-            <a href="page3.html">Strona 3</a>
-            <a href="page4.html">Strona 4</a>
+        <nav class="navigation">
+            <a class="navigation__link" href="index.html">Strona główna</a>
+            <a class="navigation__link" href="page2.html">Strona 2</a>
+            <a class="navigation__link" href="page3.html">Strona 3</a>
+            <a class="navigation__link" href="page4.html">Strona 4</a>
         </nav>
     </header>
 
-    <main>
-        <header class="main-header-panel">
-            <h1 class="main-header">RD - Strona domowa</h1>
+    <main class="main">
+        <header class="main__header">
+            <h1 class="main__h1">RD - Strona domowa</h1>
         </header>
 
-        <section class="section-panel">
-            <h2 class="second-header">Kim ja właściwie jestem?</h2>
-            <img src="1.jpg" alt="dom-palmy"/>
-            <p>Hej! Na co dzien uczę wspaniałych ludzi tajnej sztuki frontedu i pracuję w firmie o cieżko zapisywalnej
+        <section class="section">
+            <h2 class="section__h2">Kim ja właściwie jestem?</h2>
+            <img class="section__image" src="1.jpg" alt="dom-palmy"/>
+            <p class="section__paragraph section__paragraph-main">Hej! Na co dzien uczę wspaniałych ludzi tajnej sztuki frontedu i pracuję w firmie o cieżko zapisywalnej
             nazwie EYEDEA. Po za tym bardzo lubię robić zdjęcia i latać dronem. Witam cię na mojej stronie domowej, mam
             nadzieję, że znjadziesz tu troche przydatnych rzeczy.</p>
         </section>
 
-        <section class="section-panel">
-            <h2 class="second-header">Notatki z WTF: Co ten frontend</h2>
-            <article>
-                <h3 class="third-header">Jak stworzyć prawidłowego HTML-a?</h3>
-                <p>Tworzenie zgodnego ze standardami HTML-a to sztuka, którą do perfekcji opanowało niewielu.jeli chcesz
+        <section class="section">
+            <h2 class="section__h2">Notatki z WTF: Co ten frontend</h2>
+            <article class="section__article section__article-special">
+                <h3 class="section__h3 section__h3-special">Jak stworzyć prawidłowego HTML-a?</h3>
+                <p class="section__paragraph-special">Tworzenie zgodnego ze standardami HTML-a to sztuka, którą do perfekcji opanowało niewielu.jeli chcesz
                 stać sie cześcia tej grupy, musisz wykazać sie otwartą głową i duzą iloscią wolnego czasu...</p>
             </article>
-            <article>
-                <h3 class="third-header">Czy nagrywanie szkolenia to prosta sprawa?</h3>
-                <p>Na początku myslałem, że całe szkolenie nagram w 2 tygodnie (o ja naiwny!). Samo planowanie rzeczy
+            <article class="section__article">
+                <h3 class="section__h3">Czy nagrywanie szkolenia to prosta sprawa?</h3>
+                <p class="section__paragraph">Na początku myslałem, że całe szkolenie nagram w 2 tygodnie (o ja naiwny!). Samo planowanie rzeczy
                 zajęło mi dużo więcej! Na szczęście dzięki wsparciu bliskich i sporej motywacji udało mi sie utworzyć
                 schemat nagrywania, który każdego dnia przybliża mnie do skończenia pracy.</p>
             </article>
         </section>
-    </main>
 
-    <footer class="footer-panel">
-        Moja strona domowa, wszystkie treści są efektem tworzenia szkolenia WTF: Co ten frontend. 
-        <span class="footer_cprt">Copyright @2020</span>
-    </footer>
+        <footer class="footer">
+            Moja strona domowa, wszystkie treści są moją własnością i są zastrzeżone.
+            <span class="footer__cprt">Copyright @2020</span>
+        </footer>
+    </main>
 
     <script src="main.js"></script>
 </body>

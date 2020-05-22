@@ -10,32 +10,32 @@
 
 <body>
     <header>
-        <nav class="main-nav">
-            <a href="index.html">Strona główna</a>
-            <a href="page2.html">Strona 2</a>
-            <a href="page3.html">Strona 3</a>
-            <a href="page4.html">Strona 4</a>
+        <nav class="navigation">
+            <a class="navigation__link" href="index.html">Strona główna</a>
+            <a class="navigation__link" href="page2.html">Strona 2</a>
+            <a class="navigation__link" href="page3.html">Strona 3</a>
+            <a class="navigation__link" href="page4.html">Strona 4</a>
         </nav>
     </header>
 
-    <main>
-        <header>
-            <h2 class="second-header">Page4</h2>
+    <main class="main">
+        <header class="main__header">
+            <h2 class="main__h2">Page4</h2>
         </header>
-        <section>
-            <h3 class="third-header">Why do we use it?</h3>
-            <p>
+        <section class="section">
+            <h3 class="section__h3">Why do we use it?</h3>
+            <p class="section__paragraph">
                 It is a long established fact that a reader will be distracted by the readable content of a page when
                 looking at its layout.
             </p>
 
             <br>
             <div class="center">
-                <img src="4.jpg" alt="rekiny"/>
+                <img class="section__image" src="4.jpg" alt="rekiny"/>
             </div>
             <br>
 
-            <p>
+            <p class="section__paragraph">
                 The point of using Lorem Ipsum is that it has a more-or-less normal distribution
                 of letters, as opposed to using 'Content here, content here', making it look like readable English. Many
                 desktop publishing packages and web page editors now use <em>Lorem Ipsum</em> as their default model text, and a
@@ -43,12 +43,12 @@
                 evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
             </p>
         </section>
-    </main>
 
-    <footer class="footer-panel">
-        Moja strona domowa, wszystkie treści są efektem tworzenia szkolenia WTF: Co ten frontend. 
-        <span class="footer_cprt">Copyright @2020</span>
-    </footer>
+        <footer class="footer">
+            Moja strona domowa, wszystkie treści są moją własnością i są zastrzeżone.
+            <span class="footer__cprt">Copyright @2020</span>
+        </footer>
+    </main>
 </body>
 
 </html>

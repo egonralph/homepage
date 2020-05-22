@@ -10,22 +10,22 @@
 
 <body>
     <header>
-        <nav class="main-nav">
-            <a href="index.html">Strona główna</a>
-            <a href="page2.html">Strona 2</a>
-            <a href="page3.html">Strona 3</a>
-            <a href="page4.html">Strona 4</a>
+        <nav class="navigation">
+            <a class="navigation__link" href="index.html">Strona główna</a>
+            <a class="navigation__link" href="page2.html">Strona 2</a>
+            <a class="navigation__link" href="page3.html">Strona 3</a>
+            <a class="navigation__link" href="page4.html">Strona 4</a>
         </nav>
     </header>
 
-    <main>
-        <header>
-            <h2 class="second-header">Page2</h2>
+    <main class="main">
+        <header class="main__header">
+            <h2 class="main__h2">Page2</h2>
         </header>
-        <section>
-            <h3 class="third-header">Someting special about page2</h3>
-            <img src="2.jpg" alt="kanion-rzeka"/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        <section class="section">
+            <h3 class="section__h3">Someting special about page2</h3>
+            <img class="section__image" src="2.jpg" alt="kanion-rzeka"/>
+            <p class="section__paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 <br>
                 Lorem Ipsum has been the industry's standard dummy text ever since the <strong>1500s</strong>, when an
                 unknown printer took a galley of type and
@@ -35,12 +35,12 @@
                 publishing
                 software like <b>Aldus PageMaker</b> including versions of <i>Lorem Ipsum</i>.</p>
         </section>
-    </main>
 
-    <footer class="footer-panel">
-        Moja strona domowa, wszystkie treści są efektem tworzenia szkolenia WTF: Co ten frontend. 
-        <span class="footer_cprt">Copyright @2020</span>
-    </footer>
+        <footer class="footer">
+            Moja strona domowa, wszystkie treści są moją własnością i są zastrzeżone.
+            <span class="footer__cprt">Copyright @2020</span>
+        </footer>
+    </main>
 </body>
 
 </html>

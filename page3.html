@@ -10,21 +10,21 @@
 
 <body>
     <header>
-        <nav class="main-nav">
-            <a href="index.html">Strona główna</a>
-            <a href="page2.html">Strona 2</a>
-            <a href="page3.html">Strona 3</a>
-            <a href="page4.html">Strona 4</a>
+        <nav class="navigation">
+            <a class="navigation__link" href="index.html">Strona główna</a>
+            <a class="navigation__link" href="page2.html">Strona 2</a>
+            <a class="navigation__link" href="page3.html">Strona 3</a>
+            <a class="navigation__link" href="page4.html">Strona 4</a>
         </nav>
     </header>
 
-    <main>
-        <header>
-            <h2 class="second-header">Page3</h2>
+    <main class="main">
+        <header class="main__header">
+            <h2 class="main__h2">Page3</h2>
         </header>
-        <section>
-            <h3 class="third-header">Where does it come from?</h3>
-            <p>
+        <section class="section">
+            <h3 class="section__h3">Where does it come from?</h3>
+            <p class="section__paragraph">
                 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
                 Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
                 Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
@@ -36,21 +36,21 @@
             </p>
 
             <div class="center">
-                <img src="3.jpg" alt="gora-lodowa"/>
+                <img class="section__image" src="3.jpg" alt="gora-lodowa"/>
             </div>
             
-            <p>
+            <p class="section__paragraph">
                 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
                 Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their
                 exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
             </p>
         </section>
-    </main>
 
-    <footer class="footer-panel">
-        Moja strona domowa, wszystkie treści są efektem tworzenia szkolenia WTF: Co ten frontend. 
-        <span class="footer_cprt">Copyright @2020</span>
-    </footer>
+        <footer class="footer">
+            Moja strona domowa, wszystkie treści są moją własnością i są zastrzeżone.
+            <span class="footer__cprt">Copyright @2020</span>
+        </footer>
+    </main> 
 </body>
 
 </html>
