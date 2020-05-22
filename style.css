@@ -52,7 +52,7 @@ h1 {
     margin: 0.5em auto;
     border-radius: 3px;
 }
-.section__article-special{
+.section__article--special{
     border-color: darkgreen;
 }
 .section__h1{
@@ -65,7 +65,7 @@ h1 {
     color: crimson;
     margin-left: 0.5em;
 }
-.section__h3-special{
+.section__h3--special{
     color: darkgreen; 
 }
 .section__h3~p,
@@ -78,9 +78,12 @@ h1 {
 .section__paragraph{
     color: #c72800;
 }
-.section__paragraph-main{
+.section__paragraph--js{
+    color: burlywood;
+}
+.section__paragraph--main{
     color: #3a3131;
 }
-.section__paragraph-special{
+.section__paragraph--special{
     color: lightgreen;
 }
