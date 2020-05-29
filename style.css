@@ -13,10 +13,10 @@ body{
 }
 .footer{
     margin: 0 auto;
+    margin-top: 1em;
     padding: 0.5em;
     background: #cccccc;
     color: #555555;
-    max-width: 1000px;
     border-radius: 3px;
     font-size: 12px;  
 }
@@ -29,7 +29,7 @@ h1 {
 .main{
     max-width: 1000px;
     margin: 0 auto;
-    height: 100vh;
+    min-height: 100vh;
 }
 .main__header{
     text-align: center;
