@@ -28,7 +28,7 @@ body {
     background: #cccccc;
     color: #555555;
     border-radius: 3px;
-    font-size: 12px;
+    font-size: 14px;
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -75,8 +75,13 @@ h1 {
     color: #555555;
     text-decoration: none;
     padding: 0.5em;
-    ;
     font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.navigation__link:hover {
+    color: brown;
 }
 
 .notes {
@@ -128,4 +133,8 @@ h1 {
 
 .section__paragraph--special {
     color: lightgreen;
+}
+.tables{
+    display: flex;
+    justify-content: center;
 }
