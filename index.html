@@ -46,6 +46,26 @@
           adipisci perferendis accusamus temporibus laudantium minima, cumque explicabo ratione earum
           praesentium, molestiae quam eaque velit mollitia corrupti animi, sit at officiis.</p>
       </article>
+      <div class="three-columns">
+        <article class="three-columns__example">
+          <h5 class="three-columns__header">Example header</h5>
+          <hr class="three-columns__divide">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloremque quae commodi sit dolor iste
+          vitae odio dolorem asperiores, pariatur, id aperiam qui earum ab at, ad voluptatibus saepe quibusdam.
+        </article>
+        <article class="three-columns__example">
+          <h5 class="three-columns__header">Example header 2</h5>
+          <hr class="three-columns__divide">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloremque quae commodi sit dolor iste
+          vitae odio dolorem asperiores, pariatur, id aperiam qui earum ab at, ad voluptatibus saepe quibusdam.
+        </article>
+        <article class="three-columns__example">
+          <h5 class="three-columns__header">Example header 3</h5>
+          <hr class="three-columns__divide">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloremque quae commodi sit dolor iste
+          vitae odio dolorem asperiores, pariatur, id aperiam qui earum ab at, ad voluptatibus saepe quibusdam.
+        </article>
+      </div>
       <article class="section__article">
         <h3 class="section__h3">Co z kolejnym naglówkiem?</h3>
         <p class="section__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, neque
@@ -116,38 +136,29 @@
       </table>
     </section>
 
-    <section class="dashboard-panel">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="col-xs-12 dashboard_filter_panel dashboard__filter-rebate">
-            <div class="overview-panel dash_ratio_container" id="sold_outstanding_container">
-              <div class="radio overview-radio-panel" id="sold_outstanding_radio">
-                <p class="radio-paragraph">
-                  <label class="radio_label">
-                    <input name="chart_panel" type="radio" value="CPS" />
-                    Units sold
-                  </label>
-                </p>
-                <p class="radio-paragraph">
-                  <label class="radio_label">
-                    <input name="chart_panel" type="radio" value="CPO" checked />
-                    Units outstanding
-                  </label>
-                </p>
-              </div>
-
-              <div class="checkbox historical-charts">
-                <label class="historical-charts--js">
-                  <input name="showHistoricChbx" type="checkbox" value="showHistoric" />
-                  Show historical charts
-                </label>
-              </div>
-            </div>
-
-
-          </div>
+    <section class="form-panel">
+      <fieldset>
+        <legend class="form-panel__legend">Checkbox and radio buttons</legend>
+        <p class="radio-paragraph">
+          <label class="radio_label">
+            <input name="chart_panel" type="radio" value="CPS" />
+            Units sold
+          </label>
+        </p>
+        <p class="radio-paragraph">
+          <label class="radio_label">
+            <input name="chart_panel" type="radio" value="CPO" checked />
+            Units outstanding
+          </label>
+        </p>
         </div>
-      </div>
+
+        <div class="checkbox historical-charts">
+          <label class="historical-charts--js">
+            <input name="showHistoricChbx" type="checkbox" value="showHistoric" />
+            Show historical charts
+          </label>
+      </fieldset>
     </section>
   </main>
 
