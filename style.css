@@ -8,6 +8,9 @@ html {
 
 .about {
     background: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about__link {
@@ -15,7 +18,12 @@ html {
 }
 
 body {
-    background: #fefefe;
+    background-color: #0093E9;
+    background-image: linear-gradient(48deg, #0093E9 0%, #80D0C7 100%);
+    background-color: #727db1;
+    background-image: linear-gradient(43deg, #727db1 0%, #C850C0 46%, #FFCC70 100%);
+    background-color: #727db1;
+    background-image: linear-gradient(43deg, #727db1 0%, #5085c8 46%, #FFCC70 100%);
 }
 
 .center {
@@ -87,6 +95,13 @@ h1 {
 .notes {
     background: #f1f1f1;
 }
+.radio-paragraph{
+    margin-bottom: 0;
+}
+section {
+    padding: 0.5em;
+    color: #ffffff;
+}
 
 .section__article {
     border: 1px solid #ddd;
@@ -98,19 +113,24 @@ h1 {
     border-color: darkgreen;
 }
 
-.section__h1 {}
+.section__h1 {
+    font-weight: 700;
+}
 
 .section__h2 {
     color: #1460AA;
+    font-weight: 700;
 }
 
 .section__h3 {
     color: crimson;
     margin-left: 0.5em;
+    font-weight: 700;
 }
 
 .section__h3--special {
     color: darkgreen;
+    font-weight: 700;
 }
 
 .section__h3~p, .section__h3~img {
@@ -134,7 +154,7 @@ h1 {
 .section__paragraph--special {
     color: lightgreen;
 }
-.tables{
-    display: flex;
-    justify-content: center;
+
+.tables {
+    background: #fefefe;
 }
